@@ -1,8 +1,6 @@
 import time
-import concurrent.futures
 import boto3
-from multiprocessing import Process, Pipe, Pool
-import multiprocessing
+from multiprocessing import Process, Pipe
 
 logs = boto3.client('logs')
 
